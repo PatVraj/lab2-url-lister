@@ -43,7 +43,16 @@ real    1m40.735s
 user    0m15.129s
 sys     0m0.981s
 
+vrajmp999@test-dataproc-m:~/lab2-url-lister$ hdfs dfs -cat stream-output/part-00000 | head -n 10
+https://en.wikipedia.org/wiki/Google_File_System    6
+https://en.wikipedia.org/wiki/ISBN_(identifier)    18
+https://en.wikipedia.org/wiki/S2CID_(identifier)    14
+mw-data:TemplateStyles:r1295599781    33
+
 Four Nodes:
 real    1m48.532s
 user    0m14.689s
 sys     0m0.929s
+
+vrajmp999@test-dataproc-m:~/lab2-url-lister$ hdfs dfs -cat stream-output/part-00000 | head -n 10
+https://en.wikipedia.org/wiki/Doi_(identifier)  18
