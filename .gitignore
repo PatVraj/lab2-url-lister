@@ -1,1 +1,6 @@
-.ipynb_checkpoints/*
+output/
+stream-output/
+input/
+*.jar
+*.crc
+.ipynb_checkpoints/
